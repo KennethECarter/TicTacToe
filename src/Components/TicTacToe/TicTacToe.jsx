@@ -122,6 +122,7 @@ const toggle = (e,num) => {
                     <div className=" boxes"ref={box9} onClick={(e)=>{toggle(e,8)}}></div>
                 </div>
             </div>
+            
             <button className="reset" onClick={()=>{reset()}}>reset</button>
         </div>
     )
